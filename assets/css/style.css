@@ -1,4 +1,18 @@
-container {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    font: Poppins, Arial
+}
+
+
+
+h1 {
+    flex: auto;
+    position: relative;
+    margin: auto;
+}
+
+.container {
     width: 100%;
     display: flexbox;
     flex: auto;
@@ -11,6 +25,7 @@ container {
 
 .col-12 {
     width: 100%;
+    text-align: center;
 }
 
 .btn {

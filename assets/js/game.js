@@ -7,11 +7,11 @@ const hands = [
     {
         name: 'paper',
         beats: 'rock'
-    }
+    },
     {
-        name: 'scissors'
+        name: 'scissors',
         beats: 'paper'
-    }
+    },
 ]
 
 let playerScore = 0
@@ -25,7 +25,7 @@ for (button of buttons) {
 
 function playRound(playerSelection) {
     const computerHand = getComputerHand()
-    const playerHand = hands.find(hand => hand.name ===playerSelection)
+    const playerHand = hands.find(hand => hand.name === playerSelection)
     evalHands(playerHand, computerHand)
 }
 
