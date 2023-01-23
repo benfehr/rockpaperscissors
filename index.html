@@ -33,14 +33,24 @@
         <div class="row">
             <div class="col-12">
                 <button class="btn">
-                    <img src="assets/images/rock.jpg" alt="rock">    
+                    <img src="assets/images/rock.jpg" alt="rock" data-hand="rock">    
                 </button>
                 <button class="btn">
-                    <img src="assets/images/paper.jpg" alt="paper">    
+                    <img src="assets/images/paper.jpg" alt="paper" data-hand="paper">    
                 </button>
                 <button class="btn">
-                    <img src="assets/images/scissors.jpg" alt="scissors">    
+                    <img src="assets/images/scissors.jpg" alt="scissors" data-hand="scissors">    
                 </button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-12">
+                <button class="reset" id="reset"
+                onclick="resetGame()">Reset</button>
             </div>
         </div>
 
@@ -51,6 +61,7 @@
 
     </footer>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
     <script src="assets/js/game.js"></script>
 </body>
 </html>

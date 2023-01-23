@@ -39,7 +39,7 @@ function evalHands(playerHand, computerHand) {
         Swal.fire({
             position: 'center',
             icon: 'info',
-            title: "It's a draw"
+            title: "It's a draw",
             showConfirmButton: false,
             timer: 1500
         })
@@ -47,7 +47,7 @@ function evalHands(playerHand, computerHand) {
         Swal.fire({
             position: 'center',
             icon: 'success',
-            title: "You win!"
+            title: "You win!",
             showConfirmButton: false,
             timer: 1500
         })
@@ -55,7 +55,7 @@ function evalHands(playerHand, computerHand) {
         Swal.fire({
             position: 'center',
             icon: 'error',
-            title: "Loser"
+            title: "Loser",
             showConfirmButton: false,
             timer: 1500
         })
